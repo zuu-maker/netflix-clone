@@ -1,0 +1,29 @@
+.planRow{
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+    color: gray;
+}
+
+.planRow:hover{
+    color: #fff;
+}
+
+.planRow__subscribe{
+    position: absolute;
+    /* padding: 10px 15px; */
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.planRow__subscribe:hover{
+    background-color: #f63640;
+}
